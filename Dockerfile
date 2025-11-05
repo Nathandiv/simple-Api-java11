@@ -1,8 +1,8 @@
-# Use official Java 21 (lightweight)
-FROM openjdk:21-jdk-slim
+# Use official OpenJDK 21 (Ubuntu-based, slim)
+FROM eclipse-temurin:21-jdk-jammy
 
-# Copy your JAR into the container
+# Copy your JAR
 COPY target/sipmle-Api-0.0.1-SNAPSHOT.jar app.jar
 
-# Run the app
+# Run it
 ENTRYPOINT ["java", "-jar", "/app.jar"]
