@@ -1,7 +1,7 @@
-## Step-by-Step: Java 11 Version
+# Step-by-Step: Java 11 Version
 
 ## 1. Install All Required JDKs (one time only)
-# in your terminal RUN
+### in your terminal RUN
 
 sudo apt update sudo apt install openjdk-11-jdk -y
 
@@ -24,7 +24,7 @@ sudo update-alternatives --config javac
 
 → Choose the same Java 11 line
 
-# Verify:
+### Verify:
 in your terminal RUN
 java -version
 javac -version
@@ -129,6 +129,6 @@ docker run -d -p 8081:8080 --name my-api-java11 simple-api-java11
 
 in your any of your terminal RUN
 curl http://localhost:8081/api/hello
-# → "Hello!"
+ → "Hello!"
 
-## You Are Now 100% DONE!
+# You Are Now 100% DONE!
